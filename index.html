@@ -8,17 +8,30 @@
 </head>
 <body>
     <header>
-        <h1>Enter Contact Information</h1>
     </header>:
 
+    <section>
+        <button id="show-dog-btn" onclick="ShowDog()">Show me a dog!</button>
+        <button id="show-cat-btn" onclick="ShowCat()">Show me a cat!</button>
+        <button id="show-nature-btn" onclick="ShowNature()">Show me nature!</button>
+    </section>
+
+
+    <header>
+        <h4>Enter Contact Information</h4>
+    </header>
     <form>
         <!-- First Name -->
-        <label for="f-Name">First Name:</label>
-        <input name="f-Name" id="f-Name">
+        <label for="f-name">First Name:</label>
+        <input name="f-name" id="f-Name">
 
         <!-- Last Name -->
-        <label for="l-Name">Last Name:</label>
-        <input name="l-Name" id="l-Name">
+        <label for="l-name">Last Name:</label>
+        <input name="l-name" id="l-name">
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input name="email" id="email">
 
     </form>
 
@@ -27,6 +40,6 @@
             We will never share your info with anyone!
         </p>
     </footer>
-
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
